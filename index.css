@@ -1,9 +1,20 @@
+.inter {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+.karla {
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+}
+
 body {
-    margin: 0;
+    margin: auto;
     background-color: #1F2937;
     padding: 40px;
-    height: 100vh;
-    width: 100vh;
+    height: 50vh;
+    width: 500px;
+    font-family: inter;
 }
 
 
@@ -13,6 +24,7 @@ h1 {
     line-height: 40px;
     font-weight: 800;
     letter-spacing: -2.5%; 
+    font-family: karla;
 }
 
 #random-password {
